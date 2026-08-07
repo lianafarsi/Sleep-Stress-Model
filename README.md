@@ -1,7 +1,7 @@
 # 📊 Stress Level Prediction Using Lifestyle and Sleep Health Data
 
 ## 📝 Overview
-This project aims to predict an individual's stress level based on their daily habits, sleep health, and physical activity metrics. By analyzing various lifestyle factors, this Machine Learning pipeline identifies hidden patterns that contribute to elevated stress, providing valuable insights for digital health and well-being strategies.
+In this project, I built a machine learning model to predict stress levels using daily habits like sleep and physical activity. My goal was to explore lifestyle data and find hidden patterns that affect mental health.
 
 ## 🗂️ Dataset
 The dataset utilized in this project is sourced from Kaggle and contains comprehensive medical and lifestyle records. 
@@ -18,11 +18,6 @@ To ensure the highest quality of data for our Machine Learning model, a rigorous
 3.  **Data Standardization:** Merged overlapping categories (e.g., replacing 'Normal Weight' with 'Normal' in the BMI Category).
 4.  **Categorical Encoding:** Applied `LabelEncoder` from Scikit-learn to convert categorical text data (Gender, Occupation, BMI Category, Sleep Disorder) into machine-readable numeric formats.
 5.  **Target Isolation:** Dropped non-predictive identifiers (like `Person ID`) and isolated `Stress Level` as the target variable (y).
-
-## 🧠 Machine Learning Model
-The core of this project relies on a robust ensemble learning approach:
-*   **Algorithm:** Random Forest Classifier (`n_estimators=100`, `random_state=42`).
-*   **Data Splitting:** The dataset was divided into an 80% Training set and a 20% Testing set to rigorously evaluate the model's performance on unseen data.
 
 ## 🏆 Results
 The Random Forest model demonstrated exceptional predictive capabilities on the testing subset:
