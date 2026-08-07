@@ -34,4 +34,4 @@ This high level of accuracy indicates that the chosen lifestyle and physiologica
 ## 🚀 How to Run
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/lianafarsi/Digital-Health.git
+   git clone https://github.com/lianafarsi/Sleep-Stress-Model.git
